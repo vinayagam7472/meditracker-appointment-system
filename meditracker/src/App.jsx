@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/MediTracker">
       <div className="app-container">
         <Navbar currentUser={currentUser} setCurrentUser={setCurrentUser} />
 
